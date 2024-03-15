@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(96, 0, 192);
+}
+
+.left {
+    font-size: 2rem;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+}
+
+.firstsection {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 85px 0px;
+}
+
+hr {
+    border: 0px;
+    background: rgb(30, 30, 90);
+    height: 1.3px;
+    margin: 40px 80px;
+}
+
+.divleft {
+
+    text-align: center;
+    margin-top: 8%;
+    font-size: 3rem;
+    width: 40%;
+}
+
+.divright {
+    width: 30%;
+ 
+}
+
+.divright img {
+    width: 78%;
+    height: 100%;
+}
+
+.secondsection {
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.2rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+
+.secondsection .box .vertical {
+
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+
+}
+.ver-con img{
+    height: 45px;
+    width: 50px;
+}
+.ver-con{
+    margin-top: -3rem;
+    margin-left: -2rem;
+}
+a{
+    text-decoration: none;
+    color: white    ;
+}
+.pro-des{
+    margin-left: -6rem;
+    margin-top:78px ;
+    border-radius: 20px;
+    background-color: rgb(120, 6, 97);
+    text-align: center;
+    height: 100px;
+    width: 200px;
+}
+.pro-des:hover{
+    rotate:9deg;
+}
+.progress-bar {
+    margin: 50px auto;
+    width: 300px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+.pg{
+    margin: 15rem 25vw;
+}
+.progress-bar-inner {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+
+.html { width: 86%; }
+.css { width: 75%; }
+.javascript { width: 70%; }
+
+
+.contact-box{
+    border: 4px solid red;
+    color: rgb(255, 255, 255);
+    border-radius: 23px;
+    background-color:rgb(6, 0, 6) ;
+   text-align: center; 
+   width: 44%;
+  margin: auto;
+}
+.but{
+    width: 67%;
+    font-size: 12px;
+    text-align: center;
+    height: 4rem;
+    background:blue;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    color: black;
+  font-weight: bolder;    
+}
+textarea{
+    input{
+        color: black;
+        font-weight: bolder;
+    }
+}
+.about{
+    width: 80vw;
+    margin: auto;
+}
+.align{
+    display:flex;
+}
+.about .left-con{ 
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+.about .right-con{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #362d2d;
+}
+.about h1{
+    color:wheat;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.service {
+    flex: 1;
+    max-width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.service h2 {
+    color: #333;
+}
+.service p {
+    color: #666;
+}
+.welcome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
